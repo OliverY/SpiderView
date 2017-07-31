@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SpiderView">
+        <attr name="max_value" format="integer"></attr>
+        <attr name="attr_num" format="integer"></attr>
+        <attr name="rotate_angle" format="float"></attr>
+    </declare-styleable>
+</resources>
