@@ -4,5 +4,6 @@
         <attr name="max_value" format="integer"></attr>
         <attr name="attr_num" format="integer"></attr>
         <attr name="rotate_angle" format="float"></attr>
+        <attr name="region_color" format="color"></attr>
     </declare-styleable>
 </resources>

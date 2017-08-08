@@ -71,8 +71,8 @@ public class SpiderView extends View {
         Log.i("yxj","init");
 
         datas = new ArrayList<>();
-        datas.add(new Data("力量力量力量",3.3f));
-        datas.add(new Data("智力智力智力",2.6f));
+        datas.add(new Data("力量",3.3f));
+        datas.add(new Data("智力",2.6f));
         datas.add(new Data("敏捷",3.4f));
         datas.add(new Data("攻击",2.8f));
         datas.add(new Data("护甲",4f));
@@ -83,6 +83,7 @@ public class SpiderView extends View {
         mPaint.setStrokeWidth(2);
         mPaint.setColor(Color.RED);
         mPaint.setAlpha(50);
+        mPaint.setTextSize(30);
 
         mValuePaint = new Paint(Paint.ANTI_ALIAS_FLAG);
         mValuePaint.setStyle(Paint.Style.FILL);
@@ -135,8 +136,8 @@ public class SpiderView extends View {
             float textWidth = mPaint.measureText(text);
             float textSize = mPaint.getTextSize()/2;
 
-            float x = (float)Math.cos(2*Math.PI/dimention*i)*(radiu+20);
-            float y = (float)Math.sin(2*Math.PI/dimention*i)*(radiu+20);
+            float x = (float)Math.cos(2*Math.PI/dimention*i)*(radiu+30);
+            float y = (float)Math.sin(2*Math.PI/dimention*i)*(radiu+30);
 
             canvas.rotate(90,x,y);
 

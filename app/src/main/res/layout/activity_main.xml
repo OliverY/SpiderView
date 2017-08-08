@@ -24,5 +24,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:max="100"
+        android:visibility="gone"
         android:layout_below="@id/spider_view"/>
 </RelativeLayout>
